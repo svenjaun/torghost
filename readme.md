@@ -1,3 +1,16 @@
+# New Reload Add-On
+After installation you can auto reload the tor connection after a given amount of seconds. 
+
+Just use the `reload.py`.
+
+### Usage Reload 
+`python3 reload.py 60`
+- 60 = Reload the connection after 60 seconds.
+- sudo = Use sudo or root privileges
+
+
+New IP prints after every reload
+
 ## What is TorGhost ?
 TorGhost is an anonymization script. TorGhost redirects all internet traffic through SOCKS5 tor proxy. DNS requests are also redirected via tor, thus preventing DNSLeak. The scripts also disables unsafe packets exiting the system. Some packets like ping request can compromise your identity.
 
